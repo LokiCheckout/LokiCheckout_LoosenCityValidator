@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 30 July 2025
+### Fixed
+- Allow UTF-8 chars
+
 ## [0.0.1] - 30 July 2025
 ### Added
 - Initial release
