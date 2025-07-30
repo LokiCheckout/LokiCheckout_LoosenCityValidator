@@ -1,20 +1,22 @@
 {
-  "name": "loki-checkout/magento2-loosen-city-validator",
-  "version": "1.0.0",
-  "description": "N/A",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "^103.0"
-  },
-  "license": [
-    "OSL-3.0"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
+    "name": "loki-checkout/magento2-loosen-city-validator",
+    "version": "1.0.0",
+    "description": "N/A",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "^103.0",
+        "magento/module-customer": "^103.0",
+        "ext-pcre": "*"
+    },
+    "license": [
+        "OSL-3.0"
     ],
-    "psr-4": {
-      "LokiCheckout\\LoosenCityValidator\\": ""
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "LokiCheckout\\LoosenCityValidator\\": ""
+        }
     }
-  }
 }
