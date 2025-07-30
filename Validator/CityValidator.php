@@ -7,7 +7,7 @@ use Magento\Customer\Model\Validator\City as OriginalCityValidator;
 class CityValidator extends OriginalCityValidator
 {
     public function __construct(
-        private string $regex = '/([A-Za-z0-9\-\ \']+)/u',
+        private string $regex = '/^[\p{L}0-9\-\ \']+$/u',
         private int $maximumLength = 100,
     ) {
     }
@@ -27,7 +27,7 @@ class CityValidator extends OriginalCityValidator
 
     private function isValidCity(string $cityValue): bool
     {
-        if ($cityValue === '') {
+        if (strlen($cityValue) < 1) {
             return true;
         }
 
