@@ -1,0 +1,8 @@
+{
+    "modules": [
+        "Magento_Customer"
+    ],
+    "components": [],
+    "config": [],
+    "tests": []
+}
