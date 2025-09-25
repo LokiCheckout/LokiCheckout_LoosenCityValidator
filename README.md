@@ -1,6 +1,6 @@
 # LokiCheckout_LoosenCityValidator
 
-**This Magento 2 module does something spectaculair**
+**This Magento 2 module is an add-on to the Loki Checkout core.**
 
 ### Installation
 ```bash
