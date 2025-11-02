@@ -1,11 +1,11 @@
 {
-    "name": "loki-checkout\/magento2-loosen-city-validator",
+    "name": "loki-checkout/magento2-loosen-city-validator",
     "version": "1.0.2",
-    "description": "N\/A",
+    "description": "N/A",
     "type": "magento2-module",
     "require": {
-        "magento\/framework": "^103.0",
-        "magento\/module-customer": "^103.0",
+        "magento/framework": "^103.0",
+        "magento/module-customer": "^103.0",
         "ext-pcre": "*"
     },
     "license": [
@@ -19,5 +19,8 @@
             "LokiCheckout\\LoosenCityValidator\\": ""
         }
     },
-    "keywords": []
+    "keywords": [
+        "loki-checkout",
+        "loki-checkout-core"
+    ]
 }
