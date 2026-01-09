@@ -140,6 +140,7 @@ magento-compile:
   script:
     - cd $CI_PROJECT_DIR
     - source .module.ini
+    - grep -q SKIP_MAGENTO_VERSIONS .module.ini && [[ " ${SKIP_MAGENTO_VERSIONS[*]} " == *" $MAGENTO_VERSION "* ]] && exit 0
     - cd /tmp/magento
     - composer config gitlab-domains gitlab.yireo.com
     - composer config --global --auth http-basic.gitlab.yireo.com yireo "${PERSONAL_TOKEN}"
