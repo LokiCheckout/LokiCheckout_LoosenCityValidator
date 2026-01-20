@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 20 January 2026
+### Fixed
+- Skip Magento versions that do not apply
+
 ## [1.0.2] - 29 August 2025
 ### Fixed
 - Add CI files
