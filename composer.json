@@ -1,7 +1,7 @@
 {
     "name": "loki-checkout/magento2-loosen-city-validator",
     "version": "1.0.3",
-    "description": "N/A",
+    "description": "Temporary module to loosen the buggy and too tight core city validation",
     "type": "magento2-module",
     "require": {
         "ext-pcre": "*",
