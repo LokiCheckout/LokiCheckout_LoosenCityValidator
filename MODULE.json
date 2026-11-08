@@ -1,8 +1,11 @@
 {
     "modules": [
+        "Magento_Csp",
         "Magento_Customer",
         "Magento_Directory",
-        "Magento_Eav"
+        "Magento_Eav",
+        "Magento_Store",
+        "Magento_Theme"
     ],
     "components": [],
     "config": [],
