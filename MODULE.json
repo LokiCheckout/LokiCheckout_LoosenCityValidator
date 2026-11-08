@@ -26,6 +26,6 @@
     "sequence": [
         "Magento_Customer"
     ],
-    "phpcs_severity": 10,
-    "phpstan_level": 1
+    "phpcs_severity": "6",
+    "phpstan_level": "9"
 }
