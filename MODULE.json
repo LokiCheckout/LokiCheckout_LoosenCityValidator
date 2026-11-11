@@ -20,7 +20,8 @@
     "skip_magento_versions": [
         "2.4.5-p14",
         "2.4.7-p4",
-        "2.4.7-p7"
+        "2.4.7-p7",
+        "2.4.7-p10"
     ],
     "skip_css_utils": false,
     "sequence": [
