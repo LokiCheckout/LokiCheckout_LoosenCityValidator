@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.5] - 16 November 2026
+### Fixed
+- Require magento/module-customer ^103.0.8
+
 ## [1.0.4] - 08 November 2026
 ### Fixed
 - Remove PHP 8.1 support, add PHP 8.5 support
